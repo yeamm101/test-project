@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: url("https://img2.storyblok.com/1100x550/smart/f/52232/3000x2000/8b8beefcdb/dubai_skyline.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 8px;
+  font-family: initial;
+  color: black;
+}
+
+.clock {
+  display: flex;
+}
+
+.clock div {
+  margin: 7px;
+  position: relative;
+}
+
+.clock span {
+  font-family: sans-serif;
+  height: 80px;
+  width: 100px;
+  background: lightslategray;
+  opacity: 80%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.clock .text {
+  height: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: darkgray;
+  opacity: 80%;
+}
+
+.clock #ampm {
+  bottom: 0;
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  background: gray;
+  opacity: 100%;
+}
